@@ -1,3 +1,9 @@
+# revision 23351
+# category Package
+# catalog-ctan /macros/latex/contrib/bytefield
+# catalog-date 2011-06-22 20:08:44 +0200
+# catalog-license lppl
+# catalog-version 2.1
 Name:		texlive-bytefield
 Version:	2.1
 Release:	1
@@ -49,6 +55,7 @@ user interface from earlier versions.
 #- source
 %doc %{_texmfdistdir}/source/latex/bytefield/bytefield.dtx
 %doc %{_texmfdistdir}/source/latex/bytefield/bytefield.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ user interface from earlier versions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
