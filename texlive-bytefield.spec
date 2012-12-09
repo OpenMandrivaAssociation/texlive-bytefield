@@ -1,12 +1,12 @@
-# revision 27580
+# revision 23351
 # category Package
 # catalog-ctan /macros/latex/contrib/bytefield
-# catalog-date 2012-05-24 17:58:39 +0200
+# catalog-date 2011-06-22 20:08:44 +0200
 # catalog-license lppl
 # catalog-version 2.1
 Name:		texlive-bytefield
 Version:	2.1
-Release:	3
+Release:	2
 Summary:	Create illustrations for network protocol specifications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bytefield
@@ -55,3 +55,18 @@ user interface from earlier versions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-2
++ Revision: 749894
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
++ Revision: 717991
+- texlive-bytefield
+- texlive-bytefield
+- texlive-bytefield
+- texlive-bytefield
+- texlive-bytefield
+
