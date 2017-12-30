@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 2.1
 Name:		texlive-bytefield
-Version:	2.1
-Release:	11
+Version:	2.4
+Release:	1
 Summary:	Create illustrations for network protocol specifications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bytefield
