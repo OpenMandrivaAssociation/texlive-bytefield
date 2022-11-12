@@ -1,19 +1,13 @@
-# revision 27580
-# category Package
-# catalog-ctan /macros/latex/contrib/bytefield
-# catalog-date 2012-05-24 17:58:39 +0200
-# catalog-license lppl
-# catalog-version 2.1
 Name:		texlive-bytefield
-Version:	2.4
-Release:	2
+Version:	60265
+Release:	1
 Summary:	Create illustrations for network protocol specifications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bytefield
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.r60265.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.doc.r60265.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.source.r60265.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +22,12 @@ the present version 2.0 offers a different (and incompatible)
 user interface from earlier versions.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -48,7 +42,8 @@ user interface from earlier versions.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
