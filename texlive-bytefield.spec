@@ -5,9 +5,9 @@ Summary:	Create illustrations for network protocol specifications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bytefield
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.r60265.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.doc.r60265.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.source.r60265.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
