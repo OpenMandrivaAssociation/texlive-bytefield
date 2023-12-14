@@ -1,6 +1,6 @@
 Name:		texlive-bytefield
-Version:	60265
-Release:	2
+Version:	68366
+Release:	1
 Summary:	Create illustrations for network protocol specifications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bytefield
