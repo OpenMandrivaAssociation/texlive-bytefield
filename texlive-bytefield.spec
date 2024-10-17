@@ -3,7 +3,7 @@ Version:	68366
 Release:	1
 Summary:	Create illustrations for network protocol specifications
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bytefield
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/bytefield
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bytefield.doc.r%{version}.tar.xz
